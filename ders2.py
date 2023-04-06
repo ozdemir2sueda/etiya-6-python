@@ -46,3 +46,63 @@ print(totalText)
 
 #string interpolation-end
 
+#karar yapıları-start
+
+ortalamaNot = input ("Lütfen ortalamanızı giriniz")
+#yukardaki string yapıyı numerik olması gerekiyor. Stringden integer'a çevireceğiz.
+#numerik => int,double
+
+ortalamaNotAsInterger= int(ortalamaNot)
+
+#if else blokları
+
+#4 satır => 1 tab/indent
+
+#1 indent içeriye alırsan o bloğa bağlı olduğu anlamına gelir girmezsen bloga girmez. kodu 
+if ortalamaNot > 50:
+    print("geçtiniz")
+    if ortalamaNot > 80:
+        print("başarili")
+else:
+    print("kaldiniz")
+
+print("if blogundan bağımsız kısım")
+
+#else if -> elif birden fazla kararı bağlama
+if ortalamaNot > 80:
+    print("bravo")
+
+elif ortalamaNotAsInterger >60:
+    print("ortalama")
+
+studentCount = 40
+
+if studentCount> 20:
+
+    print("öğrenciler derse hazır")
+
+vize= int(input("vize"))
+final=int(input("final"))
+ortalama =(vize*0.4) + (final*0.6)
+
+if final < 40:
+    print("kaldiniz")
+    
+elif ortalama < 50:
+    print("kaldi")
+elif vize == 2*final:
+
+    print("kaldi")
+else: 
+    print("geçtiniz")
+
+    
+    
+
+# eğer final 40'dan küçükse kullanıcı kaldı
+# eğer ortalama 50'den küçükse kullanıcı kaldı
+# eğer vize finalin 2 katı ise kullanıcı kaldı
+# bunun dışındaki tüm durumlarda kullanıcı geçti yazdırmak istiyoruz.
+
+
+
