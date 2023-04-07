@@ -88,9 +88,9 @@ ortalama =(vize*0.4) + (final*0.6)
 if final < 40:
     print("kaldiniz")
     
-    elif ortalama < 50:
+elif ortalama < 50:
     print("kaldi")
-    elif vize == 2*final:
+elif vize == 2*final:
 
     print("kaldi")
 else: 
@@ -107,7 +107,8 @@ else:
 # true or false=> sol ve sağındaki koşullardan en az 1'i true olmalı
 #true and false =>sol ve sağındaki koşulların ikiside kesinlike doğru olmalı
 
-if final < 40 or ortalama < 50 or vize ==final*2
-    # print("kaldiniz")
+if final < 40 or ortalama < 50 or vize ==(final*2):
+    print("kaldiniz")
+    
 else:
     print("geçtiniz")
