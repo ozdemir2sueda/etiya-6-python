@@ -1,0 +1,9 @@
+ustlimit= int(input("üst limit giriniz"))
+
+for ciftSayi in range(0, ustlimit, 2): 
+  print(ciftSayi)
+
+altlimit= int(input("alt limit giriniz"))
+
+for ciftSayi in range(altlimit, ustlimit, 2): 
+  print(ciftSayi)
