@@ -63,4 +63,3 @@ while islem==0:
     else:
         print("Hatalı giriş yaptınız")
 
-
